@@ -1,1 +1,2 @@
-# docker_compose
+# Docker compose
+To start project `docker-compose up`
