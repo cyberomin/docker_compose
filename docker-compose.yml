@@ -1,0 +1,13 @@
+web:
+  build: .
+  container_name: web_node
+  ports:
+    - "5000:5000"
+  links:
+    - redis
+  volumes:
+    - .:/src
+
+redis:
+  container_name: redis_node
+  image: redis
